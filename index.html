@@ -6,7 +6,7 @@
         <title>Needlefelted Landscapes by Yvonne Wood</title>
         <meta name="description" content="Artwork created from organic wool.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -14,7 +14,9 @@
 
         <!-- stylesheets -->
         <link rel="stylesheet" href="css/normalize.css">
+
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/style.css">
 
         <style>
@@ -26,14 +28,15 @@
                 /* The following styles are required for the "scroll-over" effect */
                 width: 100%;
                 height: 100%;
-                top: auto;
                 left: 0;
                 margin: 0px auto;
                 z-index: 0;
+                padding-top: 120px;
+
             }
         </style>
 
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -69,7 +72,12 @@
 
               <section id="collection"><h2>Artwork Collection</h2></section>
 
-              <section id="about"><h2>About</h2></section>
+              <section id="about"><h2>About</h2>
+
+
+
+
+              </section>
 
               <section id="contact">
 
@@ -85,11 +93,13 @@
                       </label>
 
                       <label ><span>Message</span>
-                      <textarea name="message"></textarea>
+                      <textarea name="message" class="u-half-width"></textarea>
                       </label>
 
-                      <input type="submit" value="Send">
+                      <input type="submit" value="Send" class="button-primary">
                   </form>
+
+
 
               </section>
             </div>

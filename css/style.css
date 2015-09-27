@@ -48,27 +48,31 @@
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
+/* Styles for the sections */
 #container section {
   height: 950px;
   text-align: center;
 }
 
-#container section:first-of-type { padding-top: 10vh; }
 
-#container section:first-of-type h1 { font-size: 45px; }
 
-#container section:first-of-type p { font-size: 25px; }
+
+#container section:first-of-type h1 { font-size: 2.2em; }
+
+#container section:first-of-type p { font-size: 1.5em; }
 @media (max-width: 600px) {
 
-#container section:first-of-type { padding-top: 15vh; }
 
-#container section:first-of-type h1 { font-size: 30px; }
 
-#container section:first-of-type p { font-size: 18px; }
+#container section:first-of-type h1 { font-size: 1.7em; }
+
+#container section:first-of-type p { font-size: 1.2em; }
 }
 
 #container section:nth-of-type(2n) { background-color: #edf1f5; }
+
+
+/* navigation styles */
 
 .hamburger {
   position: fixed;
@@ -139,21 +143,4 @@
 #home{
   margin-top:-50px;
   margin-bottom:-80px;
-}
-
-.splash-head {
-    font-size: 1.5em!important;
-    font-weight:500;
-    color: black;
-    padding: 1em 1em;
-    border-radius: 5px;
-    line-height: 0.8em;
-
-}
-
-.splash-subhead {
-    color: black;
-    letter-spacing: 0.05em;
-    opacity: 0.8;
-    font-size: 1.2em!important;
 }
